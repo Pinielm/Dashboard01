@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.images {
+  background-image: url(https://cdn1.vectorstock.com/i/1000x1000/90/65/dashboard-service-concept-banner-header-vector-24529065.jpg);
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
